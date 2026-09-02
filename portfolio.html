@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="./portfolio.css" />
     <!--boottrap icon-->
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
   </head>
 
   <body>
@@ -43,9 +43,7 @@
 
     <!-- Home -->
     <section class="px-4 py-5 my-5 text-center">
-      <h1 class="display-5 fw-bold text-body-emphasis">
-        Hi, I'm Abhishek C P
-      </h1>
+      <h1 class="display-5 fw-bold text-body-emphasis">Hi, I'm Abhishek C P</h1>
 
       <div class="col-lg-6 mx-auto">
         <p class="lead">
@@ -60,7 +58,7 @@
 
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           <button type="button" class="btn btn-primary btn-lg px-4">
-            View My Work
+            <a href="#works" class="text-white text-decoration-none">View My Work</a>
           </button>
         </div>
       </div>
@@ -68,9 +66,7 @@
 
     <!-- About Me -->
     <section id="about" class="container py-5">
-      <div
-        class="row p-4 align-items-center rounded-3 border shadow-lg"
-      >
+      <div class="row p-4 align-items-center rounded-3 border shadow-lg">
         <div class="col-lg-7 p-3 p-lg-5">
           <h2 class="display-6 fw-bold mb-4 text-center">
             About <span class="text-primary">Me</span>
@@ -87,16 +83,26 @@
 
           <div class="btn-group" role="group">
             <button type="button" class="btn btn-primary">
-              <a href="#contact" class="text-white text-decoration-none">Get in touch</a>
+              <a href="#contact" class="text-white text-decoration-none"
+                >Get in touch</a
+              >
             </button>
 
             <button type="button" class="btn btn-primary">
-              <a href="./resume.pdf" class="text-white text-decoration-none" download>Download CV</a>
+              <a
+                href="./resume.pdf"
+                class="text-white text-decoration-none"
+                download
+                >Download CV</a
+              >
             </button>
           </div>
         </div>
 
-        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg" style="background-color:#ffffff;">
+        <div
+          class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg"
+          style="background-color: #ffffff"
+        >
           <img
             class="img-fluid rounded-circle"
             src="./7082f3d9-29f7-494c-934e-52f96443eb29.png"
@@ -107,95 +113,144 @@
     </section>
     <!--skills-->
 
-<!-- Skills -->
-<section id="skills" class="container py-5">
-  <div class="text-center mb-5">
-    <h2 class="fw-bold">
-      Technical <span class="text-primary">Proficiency</span>
-    </h2>
-    <p class="text-muted">My technical skills and expertise</p>
-  </div>
-
-  <div class="skills-showcase">
-
-    <div class="skill-item mb-4">
-      <div class="d-flex justify-content-between mb-2">
-        <span>HTML</span>
-        <span class="percentage">0%</span>
+    <!-- Skills -->
+    <section id="skills" class="container py-5">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">
+          Technical <span class="text-primary">Proficiency</span>
+        </h2>
+        <p class="text-muted">My technical skills and expertise</p>
       </div>
 
-      <div class="progress">
-        <div
-          class="progress-bar"
-          data-target="95"
-          role="progressbar"
-        ></div>
+      <div class="skills-showcase">
+        <div class="skill-item mb-4">
+          <div class="d-flex justify-content-between mb-2">
+            <span>HTML</span>
+            <span class="percentage">0%</span>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar" data-target="95" role="progressbar"></div>
+          </div>
+        </div>
+
+        <div class="skill-item mb-4">
+          <div class="d-flex justify-content-between mb-2">
+            <span>CSS</span>
+            <span class="percentage">0%</span>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar" data-target="90" role="progressbar"></div>
+          </div>
+        </div>
+
+        <div class="skill-item mb-4">
+          <div class="d-flex justify-content-between mb-2">
+            <span>JavaScript</span>
+            <span class="percentage">0%</span>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar" data-target="80" role="progressbar"></div>
+          </div>
+        </div>
+
+        <div class="skill-item mb-4">
+          <div class="d-flex justify-content-between mb-2">
+            <span>Python</span>
+            <span class="percentage">0%</span>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar" data-target="75" role="progressbar"></div>
+          </div>
+        </div>
+
+        <div class="skill-item mb-4">
+          <div class="d-flex justify-content-between mb-2">
+            <span>Bootstrap</span>
+            <span class="percentage">0%</span>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar" data-target="90" role="progressbar"></div>
+          </div>
+        </div>
       </div>
+    </section>
+    <!--works-->
+
+    <div class="album py-5 bg-body-tertiary " id="works" >
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                aria-label="Placeholder: Thumbnail"
+                class="bd-placeholder-img card-img-top"
+                height="225"
+                preserveAspectRatio="xMidYMid slice"
+                role="img"
+                width="100%"
+                src="./f80fca54-a842-4311-804f-ae3128e94710.png"
+              >
+              <div class="card-body">
+                <h5 class="subheading">AI-Based Drug Response Prediction System</h5>                
+                <p class="card-text">
+                  Developed a machine learning system using Python and Scikit-learn to predict drug responses based on clinical data.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                aria-label="Placeholder: Thumbnail"
+                class="bd-placeholder-img card-img-top"
+                height="225"
+                preserveAspectRatio="xMidYMid slice"
+                role="img"
+                width="100%"
+                src="./10349abd-5133-4e79-a1a3-b7f6bd78fa53.png"
+              >
+          
+              <div class="card-body">
+                <h5 class="subheading">AI Gym Trainer</h5> 
+                <p class="card-text">
+                  Built an AI-powered virtual fitness trainer using computer vision and pose estimation to monitor exercise form, count repetitions, and provide real-time feedback.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                aria-label="Placeholder: Thumbnail"
+                class="bd-placeholder-img card-img-top"
+                height="225"
+                preserveAspectRatio="xMidYMid slice"
+                role="img"
+                width="100%"
+                src="./e16bfb36-50ba-419a-958a-86a639dc1b6d.png"
+              >
+
+              <div class="card-body">
+                <h5 class="subheading">Morse Code Converter</h5> 
+                <p class="card-text">
+                  Developed a real-time Morse code converter using OpenCV and eye-blink detection, translating blink patterns into text for assistive communication.
+                </p>
+                
+                
+              </div>
+            </div>
+          </div>
+          
+          
+
     </div>
-
-    <div class="skill-item mb-4">
-      <div class="d-flex justify-content-between mb-2">
-        <span>CSS</span>
-        <span class="percentage">0%</span>
-      </div>
-
-      <div class="progress">
-        <div
-          class="progress-bar"
-          data-target="90"
-          role="progressbar"
-        ></div>
-      </div>
-    </div>
-
-    <div class="skill-item mb-4">
-      <div class="d-flex justify-content-between mb-2">
-        <span>JavaScript</span>
-        <span class="percentage">0%</span>
-      </div>
-
-      <div class="progress">
-        <div
-          class="progress-bar"
-          data-target="80"
-          role="progressbar"
-        ></div>
-      </div>
-    </div>
-
-    <div class="skill-item mb-4">
-      <div class="d-flex justify-content-between mb-2">
-        <span>Python</span>
-        <span class="percentage">0%</span>
-      </div>
-
-      <div class="progress">
-        <div
-          class="progress-bar"
-          data-target="75"
-          role="progressbar"
-        ></div>
-      </div>
-    </div>
-
-    <div class="skill-item mb-4">
-      <div class="d-flex justify-content-between mb-2">
-        <span>Bootstrap</span>
-        <span class="percentage">0%</span>
-      </div>
-
-      <div class="progress">
-        <div
-          class="progress-bar"
-          data-target="90"
-          role="progressbar"
-        ></div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
 
     <!-- Contact -->
     <section id="contact" class="py-5">
@@ -268,37 +323,51 @@
             </form>
           </div>
         </div>
-<div class="social-links d-flex justify-content-center gap-6 quick mt-5">
-<a href="https://www.instagram.com/" target="_blank">
-  <i class="bi bi-instagram fs-2"></i>
-</a>  <a href="#"><i class="bi bi-twitter-x fs-2"></i></a>
-  <a href="https://www.linkedin.com/in/abhishekcp7" target="_blank"><i class="bi bi-linkedin fs-2"></i></a>
-  <a href="https://github.com/Abhishekcp07"><i class="bi bi-github fs-2"></i></a>
-</div>
+        <div
+          class="social-links d-flex justify-content-center gap-6 quick mt-5"
+        >
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="bi bi-instagram fs-2"></i>
+          </a>
+          <a href="mailto:abhishekcp122333@gmail.com">
+            <i class="bi bi-envelope-fill fs-2"></i>
+          </a>
+
+
+          <a href="https://x.com"><i class="bi bi-twitter-x fs-2"></i></a>
+          <a href="https://www.linkedin.com/in/abhishekcp7" target="_blank"
+            ><i class="bi bi-linkedin fs-2"></i
+          ></a>
+          <a href="https://github.com/Abhishekcp07"
+            ><i class="bi bi-github fs-2"></i
+          ></a>
+        </div>
       </div>
     </section>
 
     <!--footer-->
 
-    <div class="d-flex flex-column flex-sm-row justify-content-between  border-top mx-4">
-    <p>© 2026 Abhishek, Inc. All rights reserved.</p>
-    <ul class="list-unstyled d-flex">
+    <div
+      class="d-flex flex-column flex-sm-row justify-content-between border-top mx-4"
+    >
+      <p>© 2026 Abhishek, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
         <li class="ms-3">
-            <a class="link-body-emphasis" href="#" aria-label="Instagram">
-                <svg class="bi" width="24" height="24">
-                    <use xlink:href="#instagram"></use>
-                </svg>
-            </a>
+          <a class="link-body-emphasis" href="#" aria-label="Instagram">
+            <svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram"></use>
+            </svg>
+          </a>
         </li>
         <li class="ms-3">
-            <a class="link-body-emphasis" href="#" aria-label="Facebook">
-                <svg class="bi" width="24" height="24" aria-hidden="true">
-                    <use xlink:href="#facebook"></use>
-                </svg>
-            </a>
+          <a class="link-body-emphasis" href="#" aria-label="Facebook">
+            <svg class="bi" width="24" height="24" aria-hidden="true">
+              <use xlink:href="#facebook"></use>
+            </svg>
+          </a>
         </li>
-    </ul>
-</div>
+      </ul>
+    </div>
 
     <!--  JavaScript -->
     <script src="./portfolio.js"></script>
